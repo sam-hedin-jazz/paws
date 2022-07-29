@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Note to mac users: If you dont have realpath, you can `brew install coreutils`
+
+exec python3 -i $(dirname $(realpath $0))/paws.py
